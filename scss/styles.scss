@@ -1,0 +1,542 @@
+/*
+website:outreachplus.com
+author : jaseel
+signup on boarding
+
+
+*/
+body{
+    margin: 0;
+    padding: 0;
+}
+
+*, :after, :before {
+    box-sizing: border-box; }
+    .form-group .form-control{
+        box-shadow: none;
+        outline: none;
+        color: #9f9f9f;
+    }
+
+    .signup_onboard{
+        padding: 50px;
+    }
+
+   .ravi_outreachplus .logo{
+        position: relative;
+        // padding: 40px;
+        width: 180px;
+        max-width: 100%;
+}
+    .signup__dashboard{
+        padding-top: 40px;
+    }
+    .signup__dashboard .title{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-family: yorkten-slab-normal, sans-serif;
+    font-style: normal;
+    font-weight: 500
+    }
+    .signup__dashboard span{
+        margin: 0 10px;
+    }
+.sign_up__outreachplus .form-buttons input[type=submit] {
+    
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1.4px;
+    width: 100%;
+    height: 46px;
+    border: 1px solid #1D99E8;
+    background-color: #1D99E8;
+    background-image: none;
+    margin: auto;
+    outline: 0;
+    -webkit-transition: .3s;
+    transition: .3s;
+    max-width: 100%;
+}
+
+.sign_up__outreachplus .form-buttons input[type=submit]:hover {
+ 
+    background-image: linear-gradient(to right, #6371dc, #5679e1, #4981e4, #3b89e7, #2d90e8, #179bec, #00a5ee, #00afef, #00beef, #00cce5, #00d8d4, #00e2bc);
+}
+//checkbox
+.round {
+    position: relative;
+  }
+  
+  .round label {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+    height: 20px;
+    left: 0;
+    position: absolute;
+    top: 2px;
+    width: 20px;
+  }
+  
+  .round label:after {
+    border: 2px solid #fff;
+    border-top: none;
+    border-right: none;
+    content: "";
+    height: 6px;
+    left: 4px;
+    opacity: 0;
+    position: absolute;
+    top: 5px;
+    transform: rotate(-45deg);
+    width: 10px;
+  }
+  
+  .round input[type="checkbox"] {
+    visibility: hidden;
+  }
+  
+  .round input[type="checkbox"]:checked + label {
+    background-color: #1D99E8;
+    border-color: #1D99E8;
+  }
+  
+  .round input[type="checkbox"]:checked + label:after {
+    opacity: 1;
+  }
+.chex-box-side{
+    margin: 16px 13px;
+}
+.chex-box-side span{
+    margin-left: 17px;
+}
+.chex-box-side a{
+    
+    margin: 0 75px;
+}
+.signup__dashboard P{
+    padding-bottom: 25PX;
+}
+.sign-up-bg {
+    float: right;
+    position: relative;
+    top: 75px;
+}
+.client-desc p{
+    padding-top: 35px;
+    color: #9f9f9f;
+    
+}
+.clients_logo__list {
+    align-items: center;
+    width: 100%;
+    padding-top: 18px;
+    margin: auto;
+}
+.clients__logo_item {
+    width: 7%;
+    text-align: center;
+    margin: auto;
+
+}
+.ravi_outreachplus{
+    height:100vh;
+    background: #F4FAFD;
+    padding: 25px 0 0 25px;
+}
+.ravi-box{
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.11), 0 5px 15px 0 rgba(0, 0, 0, 0.08);
+    border-radius: 20px;
+    transition: box-shadow .3s;
+}
+.ravi-box:HOVER{
+    border: solid 1px #CCC;
+    -moz-box-shadow: 1px 1px 5px #999;
+    -webkit-box-shadow: 1px 1px 5px #999;
+    box-shadow: 1px 1px 5px #999;
+}
+.ravi-box .img-icon {
+    padding-bottom: 20px;
+}
+.ravi-box .titles{
+    font-size: 25px;
+    
+
+}
+.align-center {
+    text-align: center;
+}
+.ravi_outreachplus .title{
+
+font-family: yorkten-slab-normal, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 42px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.ravi_outreachplus .desc{
+    font-size: 20px;
+    color: #9f9f9f;
+    padding-bottom: 20px;
+}
+
+.navigations{
+    display: flex;
+    flex-direction: row;
+    float: right;
+}
+.navigation a{
+    margin: 0 20px;
+    font-weight: 600;
+}
+.navigations .back:after{
+    content: "";
+    position: absolute;
+    color: #000000;
+    height: 27px;
+    width: 3px;
+    background: #1D99E8;
+    margin-left: 16px;
+    margin-top: -1px;
+    display: none;
+}
+.navigations .nav__link{
+    margin: 20px 15px;
+    font-weight: 600;
+    color: #1D99E8;		
+
+}
+.grow__with__limecall {
+    padding-top: 6%;
+}
+.alternatively{
+    margin-top: 20px;
+    color: #9f9f9f;
+    padding: 5px;
+}
+.grow__with__limecall .you_are_good b{
+    font-family: yorkten-slab-normal, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+}
+.grow__with__limecall  .grow_with{
+    color: #9f9f9f;
+    font-size: 18px;
+    padding-bottom: 8px;
+}
+.grow__with__limecall 
+ input[type=submit] {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1.4px;
+    width: 292px;
+    height: 46px;
+    border: none;
+    background-image: linear-gradient(to right, #6371dc, #5679e1, #4981e4, #3b89e7, #2d90e8, #179bec, #00a5ee, #00afef, #00beef, #00cce5, #00d8d4, #00e2bc);
+    border: 1px solid none;
+    margin: 0 5px;
+    outline: 0;
+    -webkit-transition: .3s;
+    transition: .3s;
+    max-width: 100%;
+}
+.free__trial_dashboard{
+    padding: 50px;
+}
+.free__trial_dashboard::before{
+    content: url(../image/resized.png);
+   bottom: 0;
+    position: absolute;
+
+  overflow: hidden;
+    
+   
+}
+.rounded-checkbox{
+    margin: 0 14px;
+    padding-bottom: 20px;
+    padding-top: 8px;
+}
+.rounded-checkbox a{
+margin: 0 0;
+}
+.already__have{
+    padding-top: 25px;
+}
+.review_patel{
+    width: 480px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding-top: 7rem;
+    padding-left: 4rem;
+}
+.review_patel p{
+    color: #9f9f9f;
+    font-weight: 400;
+}
+.outreachplus-buisness {
+    height: 100vh;
+    background: #F4FAFD;
+    padding: 25px 0 0 25px;
+}
+.outreachplus-buisness .title {
+    padding-top: 50px;
+    position: relative;
+    top: 33px;
+    padding-bottom: 20px;
+    font-family: yorkten-slab-normal, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+
+}
+.outreachplus-buisness .desc{
+    color: #9f9f9f;
+    font-size: 21px;
+    position: relative;
+    top: 40px;
+}
+.tell__ravi_buissness {
+    width: 50%;
+    margin: auto;
+    margin-top: 61px;
+    padding: 31px;
+}
+.tell__ravi_buissness label , .dropdown_buissness label{
+    color: black;
+    font-weight: 500;
+}
+
+
+/*dropdown  starts*/
+.wrapper-dropdown-3 {
+    position: relative;
+    width: 495px;
+    margin: 0 auto;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid rgba(0,0,0,0.15);
+    box-shadow: 0 1px 1px rgba(50,50,50,0.1);
+    cursor: pointer;
+    outline: none;
+    z-index: 1;
+    max-width: 100%;
+}
+
+.wrapper-dropdown-3:after {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    margin-top: -3px;
+    border-width: 6px 6px 0 6px;
+    border-style: solid;
+    border-color:#9f9f9f transparent;
+}
+
+.wrapper-dropdown-3 .dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    padding:0;
+    margin:-1px;
+    background: white;
+    border: 1px solid rgba(0,0,0,0.17);
+    border-top: none;
+    border-bottom: 1px solid rgba(0,0,0,0.17);
+    border-left: 1px solid rgba(0,0,0,0.17);
+    border-right: 1px solid rgba(0,0,0,0.17);
+    font-weight: normal;
+    -webkit-transition: all 0.5s ease-in;
+    -moz-transition: all 0.5s ease-in;
+    -ms-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+    list-style: none;
+
+    /* Hiding */
+    opacity: 0;
+    pointer-events: none;
+}
+
+
+
+.wrapper-dropdown-3 .dropdown li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: 400;
+    color: #9f9f9f;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,1);
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+.wrapper-dropdown-3 .dropdown li i {
+    float: right;
+    color: inherit;
+}
+
+.wrapper-dropdown-3 .dropdown li:first-of-type a {
+    border-radius: 7px 7px 0 0;
+}
+
+.wrapper-dropdown-3 .dropdown li:last-of-type a {
+    border: none;
+    border-radius: 0 0 7px 7px;
+}
+
+
+
+.wrapper-dropdown-3 .dropdown li:hover a {
+    background: #f3f8f8;
+}
+
+
+
+.wrapper-dropdown-3.active .dropdown {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+
+.no-opacity       .wrapper-dropdown-3 .dropdown,
+.no-pointerevents .wrapper-dropdown-3 .dropdown {
+    display: none;
+    opacity: 1; 
+    pointer-events: auto; 
+}
+
+.no-opacity       .wrapper-dropdown-3.active .dropdown,
+.no-pointerevents .wrapper-dropdown-3.active .dropdown {
+    display: block;
+}
+
+/* dropdown end*/
+.dropdown_buissness{
+    width: 50%;
+    margin: auto;
+    // margin-top: 61px;
+    padding: 31px;
+}
+.outreachplus-buisness  .definition{
+    color: #9f9f9f;
+    font-size: 21px;
+    position: relative;
+    top: 26px;
+}
+.wrapper-dropdown-3 span{
+    color: #9f9f9f; 
+}
+.sign-up-bg{
+    animation: breath 2s ease-in-out alternate infinite;
+  }
+@keyframes breath {
+    from { 
+      transform: scale(1);
+    }
+    to {
+      transform: scale(1.05)
+    }
+  }
+  
+  .weare_image{
+    -webkit-animation: action 2s infinite  alternate;
+    animation: action 2s infinite  alternate;
+  }
+  @-webkit-keyframes action {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+@keyframes action {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .logo{
+        padding: 19px 20px;
+    }
+    .ravi_outreachplus .logo {
+        position: relative;
+        padding: 20px;
+    }
+    .signup_onboard{
+        padding: 5px;
+    }
+    .clients__logo_item {
+        width: 50%;
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .ravi_outreachplus{
+        padding: 0;
+    }
+    .chex-box-side a {
+        /* margin: auto; */
+        display: flex;
+        margin: 6px 10px;
+    }
+    .sign-up-bg {
+        /* float: left; */
+        position: relative;
+        top: 33px;
+    }
+    .ravi-box{
+        margin-top: 20PX;
+    }
+    .free__trial_dashboard {
+        padding: 11px;
+    }
+    .free__trial_dashboard::before{display: none;}
+    
+    .review_patel {
+         width: 480px; 
+         max-width: 100%; 
+         margin: 0 auto; 
+        padding-top: 7rem;
+         padding-left: 0; 
+    }
+    .outreachplus-buisness {
+       background: none;
+        padding: 25px 0 0 0px;
+    }
+    .welcome_board {
+        background-color: #f4f4f4;
+        height: 100vh;
+        overflow: hidden;
+        padding: 25px 0 0 25px;
+    }
+    .tell__ravi_buissness {
+        width: 100%; 
+        /* margin: auto; */
+        margin-top: 61px;
+        /* padding: 31px; */
+    }
+    .outreachplus-buisness .desc{
+        font-size: 18px;
+    }
+    .dropdown_buissness {
+        width: 100%;
+    margin-top: 43px;
+    padding: 23px 0 0 0;
+    }
+}
+
+

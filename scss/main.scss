@@ -1,0 +1,767 @@
+
+body{
+margin: 0;
+padding: 0;
+
+// overflow: hidden;
+font-family: canada-type-gibson, sans-serif;
+// font-family: dolce, sans-serif;
+
+}
+
+*, :after, :before {
+    box-sizing: border-box;
+}
+.form-control{
+    box-shadow: none !important;
+}
+.containers {
+    max-width: 1350px;
+}
+.sign__up_board{
+height: 100vh;
+padding: 70px 0;
+position: relative;
+// overflow: hidden;
+
+}
+.sign__up_board .limecall_logo_sec{
+    position: relative;
+    top: -34px;
+    margin: 0 47px; 
+}
+.Signup_way__board:before {
+    position: absolute;
+    content: '';
+    right: 0;
+    top: 0;
+    height: 100%;
+    // height: auto;
+    max-height: 100%;
+    overflow: hidden;
+    width: 50%;
+    background-color: #f4f4f4;
+}
+.home_way_wrap__item{
+    padding: 40px 0 0 100px;
+}
+.signup_way_wrap__item {
+padding: 0;
+}
+.home_logo_list{
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.clients__logo_item{
+    width: 20%;
+    text-align: center;
+}
+.clients_logo__list {
+    align-items: center;
+    // max-width: 100%;
+    width: 100%;
+}
+.clients_logo_list  img {
+    -webkit-transition: .3s;
+    transition: .3s;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+.clients_logo_list  img:hover {
+    // -webkit-transition: .3s;
+    // transition: .3s;
+    // -webkit-filter: grayscale(100%);
+    filter: grayscale(0%);
+}
+
+.align-center {
+    text-align: center;
+}
+.signup_way_wrap__item .title b{
+    font-weight: 600;
+}
+.home_way_wrap__item  .title b{
+    font-weight: 600;  
+}
+.center {
+    margin: 0 auto;}
+
+
+    .sign_up__validation label{
+        font-size: 15px;
+        color: #000000;
+    }
+    .terms_conditions p{
+        padding-top: 24px;
+        font-size: 15px;
+        padding-bottom: 12px;
+    }
+    .terms_conditions a,.have_account a{
+        color: #00cdff;
+    }
+    .form-check .label_receive{
+        margin-top: 3px;
+        /* margin: auto; */
+        margin-left: 11px;
+    }
+    .home_way_wrap__item .title{
+        padding-bottom: 20px;
+    }
+    .sales_director{
+        padding-top: 15px;
+        display: flex;
+        align-items: center;
+        padding-bottom: 30px;
+    }
+    .sales_desc {
+        margin: 2px 22px;
+        // filter: grayscale(100%);
+        position: relative;
+        top: 10px;
+    }
+    .sales_desc .titles b {
+        font-family: dolce, sans-serif;
+        font-style: normal;
+        font-weight: 900;
+        // font-size: 32px
+    }
+    .sales_desc span img{
+       filter: grayscale(100%);
+    }
+    .review_box  .trusted_by{
+        font-size: 23px;
+        color: #9f9f9f;
+    }
+    
+    .sign_up__validation  input[type=submit] {
+        text-transform: uppercase;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 500;
+        letter-spacing: 1.4px;
+        width: 475px;
+        height: 46px;
+        border: 1px solid #283238;
+        background-color: #283238;
+        background-image: none;
+        margin: 0 16px;
+        outline: 0;
+        -webkit-transition: .3s;
+        transition: .3s;
+        max-width: 100%;
+    }
+    .sign_up__validation  input[type=submit]:hover {
+        -webkit-transition: .3s;
+        transition: .3s;
+        background-image: linear-gradient(45deg,#537c44 0,#b0c849 100%);
+    }
+    
+  .have_account{
+       padding-top: 20px;
+   }
+   .have_account span{
+    color: #00cdff;
+   }
+  .sales_desc span{
+    margin-left:12px;
+  }
+  .sales_desc small:after{
+    content: "";
+    position: absolute;
+    color: #000000;
+    height: 21px;
+    width: 2px;
+     // color: #9f9f9f;
+   
+     background: #9f9f9f;
+    margin-left: 4px;
+    margin-top: 3px;
+    // color: #9f9f9f;
+  
+  }
+ 
+  .review_box .review {
+    width: 76%;
+    max-width: 100%;
+    font-style: italic;
+    line-height: 1.7;
+    font-weight: 500;
+}
+.input[type="radio"], input[type="checkbox"] {
+    box-sizing: border-box;
+    padding: 0;
+    width: 20px;
+    height: 20px;
+    /* padding-bottom: 20px; */
+}
+.lime_content_boxes .title{
+    font-size: 38px;
+    font-weight: 600;
+    padding-bottom: 25px;
+}
+.lime_content_boxes  p{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.lime_box{
+    background: #ffffff;
+    width: 100%;
+    padding: 25px;
+    box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.11), 0 5px 15px 0 rgba(0, 0, 0, 0.08);
+    border-radius: 7px;
+    transition: box-shadow 0.3s ease-in-out;
+}
+.lime_box:hover {
+    border: solid 1px #CCC;
+    -moz-box-shadow: 1px 1px 5px #999;
+    -webkit-box-shadow: 1px 1px 5px #999;
+    box-shadow: 1px 1px 5px #999;
+}
+.lime_box .box-img{
+    padding-bottom: 5px;
+}
+
+.welcome_board{
+    background-color: #f4f4f4;
+    height: 100vh;
+  
+    padding: 25px 0 0 25px;
+   
+}
+.welcome_board .limecall_logo_sec {
+    // position: relative;
+    // top: 34px;
+    // margin: 0 47px;
+}
+.lime_content_boxes{
+    margin: auto;
+    padding-top: 6%;
+}
+.back_to{
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  
+}  
+.lime_box h3{
+    padding-top: 10px;
+}
+.lime_box p{
+    padding-top: 10px;
+    position: relative;
+    width: 334px;
+    font-size: 16px;
+    max-width: 100%;
+}
+//3
+
+.home_way:before{
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 50%;
+    background-color: #f4f4f4; 
+}
+.home_way .limecall_logo_sec{
+       position: relative;
+    top: -34px;
+    margin: 0 47px;
+    z-index: 1;
+}
+
+    .home_way{
+        height: 100%;
+        padding: 70px 0;
+        position: relative;
+    }
+
+.lead_way__wrapper{
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.color_ul{
+
+    display: flex;
+    flex-flow: row;
+    list-style: none !important;
+    margin-left: -45px;
+}
+
+.color_ul li .color1{
+    margin: 5px;
+    width: 20px;
+ 
+    height: 20px;
+    list-style: none;
+}
+.color_ul .or {
+    margin: 0 13px 0 13px
+}
+.color_ul .input_space {
+    margin: 0 0 0 auto;
+}
+
+
+
+ 
+
+// page 4 
+.sign__up_board_call{
+    height: 100vh;
+    padding: 70px 0;
+    position: relative;
+    // overflow: hidden;
+    }
+.sign__up_board_call{
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    height: 100%;
+    // height: auto;
+    max-height: 100%;
+    overflow: hidden;
+    width: 50%;
+    background-color: #f4f4f4;
+}
+.sign__up_board_call .call_icons{
+    position: relative;
+    margin-top: 20%;
+}
+.sign_up_call_board{
+    height: 100vh;
+    padding: 70px 0;
+    position: relative;
+    
+}
+
+.sign_up_call_board .limecall_logo_sec {
+    position: relative;
+    top: -34px;
+    margin: 0 47px;
+  
+    z-index: 1;
+}
+
+.call_way__wrapper::before{
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    height: 100%;
+    max-height: 100%;
+    overflow: hidden;
+    width: 50%;
+    background-color: #f4f4f4;
+}
+.verify_forms .inputs {
+    padding-top: 10px;
+    list-style: none;
+    display: inline-block;
+    border-bottom: 2px solid #f4f4f4;
+    border-top: 2px solid #f4f4f4;
+    background-color: white;
+       margin-top: 50px;
+    // padding-bottom: 10px;
+}
+ .call_way_wrap {
+    align-items: center !important;
+}
+.call_way_wrap__item h3 b{
+    font-weight: 600;
+}
+.call_way__wrapper{
+    padding-top: 7%;
+}
+.inputs b{
+    font-weight: 600;
+}
+
+.verify_forms{
+    width: 350px;
+   
+    max-width: 100%;
+    text-align: justify;
+    align-items: center;
+    margin: auto;
+}
+
+.verify_forms .inputs li.exp_li input.cvv{
+    width: 50px;
+    height: 40px;
+  
+}
+.verify_forms .inputs input{
+    margin: 0 5px;
+}
+.verify_forms .inputs li.exp_li input.cards{
+  display: inline-block;
+  width: 150px;
+  height: 40px;
+  border-radius: none !important;
+ 
+}
+.verify_forms .inputs li.exp_li input.enter-code{
+    display: inline-block;
+    width: 167px;
+    height: 40px;
+    border-radius: none !important;
+   
+  }
+ 
+      
+
+.verify_forms li p{
+    color: #9f9f9f;
+    padding-top: 10px;
+}
+.verify_forms  input[type=submit] {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1.4px;
+    height: 40px;
+    border: 1px solid #283238;
+    background-color: #283238;
+    background-image: none;
+    margin: 1px 5px;
+    outline: 0;
+    -webkit-transition: .3s;
+    transition: .3s;
+    max-width: 100%
+}
+.verify_forms  input[type=submit]:hover {
+    -webkit-transition: .3s;
+    transition: .3s;
+    background-image: linear-gradient(45deg,#537c44 0,#b0c849 100%);
+}
+.verify_forms .resend_list{
+    margin-top: 10px;
+    margin-bottom: 9px;
+}
+.verify_forms  li .resend-code:after {
+   
+    content: "";
+    position: absolute;
+    color: #000000;
+    height: 21px;
+    width: 2px;
+    background: #9f9f9f;
+    margin-left: 8px;
+    margin-top: 1px;
+    
+}
+.verify_forms li span {
+    color: #9f9f9f;
+    margin-left: 5px;
+    font-weight: 300;
+}
+.verify_forms .resend-code{
+    margin-right: 10px;
+    color: #00cdff !important;
+}
+.sign_up_call_website{
+    padding: 70px 0;
+  
+}
+.lime_call_way__wrapper:before{
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 50%;
+    background-color: #f4f4f4;
+    background-image: url(../images/limecall_map.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    // background-size: cover;
+}
+//check box
+.input[type="radio"], input[type="checkbox"] {
+    box-sizing: border-box;
+    padding: 0;
+    width: 16px;
+    height: 16px;
+    /* padding-bottom: 20px; */
+}
+.grow_limecall_item{
+    align-items: center;
+    padding-top: 3.5%;
+}
+.limecall_logo{
+    position: relative;
+    top: -34px;
+    margin: 0 47px;
+    z-index: 1;
+}
+.grow__with__limecall label {
+   color: #9f9f9f;
+   font-size: 15px;
+   font-weight: 300;
+}
+.alternatively{
+    padding-top: 20px;
+    padding-bottom: 10px
+}
+// .alternatively span{
+//     color: #00cdff !important;
+// }
+.grow__with__limecall .form-check{
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+.grow__with__limecall .you_are_good{
+    font-weight: 600;
+}
+.grow__with__limecall 
+ input[type=submit] {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1.4px;
+    width: 292px;
+    height: 46px;
+    border: 1px solid #283238;
+    background-color: #283238;
+    background-image: none;
+    margin: 0 5px;
+    outline: 0;
+    -webkit-transition: .3s;
+    transition: .3s;
+    max-width: 100%;
+}
+.grow__with__limecall  .limecall_btn_good:hover{
+    -webkit-transition: .3s;
+    transition: .3s;
+    background-image: linear-gradient(45deg,#537c44 0,#b0c849 100%);
+}
+//accordian scss
+.fa-caret-right{
+    transition: all .4s ease;
+  }
+  .active .fa-caret-right{
+    transform: rotate(90deg);
+  }
+  
+  // Pen decoration
+
+  .panel-title a{
+    text-decoration: none;
+  }
+
+  .switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+  .toggle-panels{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding-top: 25px;
+  }
+//   .toggle-switch{
+    
+//   }
+  .anonyams{
+    display: block;
+    padding-top: 14px !important;
+    position: relative;
+    top: -25px;
+    float: right;
+    left: 27px;
+  }
+  .anonyams p{
+      font-size: 14px;
+      color: #9f9f9f;
+      font-weight: 300;
+  }
+  .lorem-text{
+    width: 100%;
+    border: 2px solid #9f9f9f;
+    color: #9f9f9f;
+    padding: 10px;
+  }
+  .accordion > .card .card-header {
+    margin-bottom: -1px;
+    background: #fff;
+}
+.accordion > .card {
+    border: none;
+}
+.card-header {
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: rgba(0, 0, 0, 0.03);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+    border-top: none;
+}
+.weare_image{
+    -webkit-animation: action 2s infinite  alternate;
+    animation: action 2s infinite  alternate;
+  }
+  @-webkit-keyframes action {
+    0% { transform: translateY(0); }
+    
+    100% { transform: translateY(20px); }
+}
+@keyframes action {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+@media only screen and (max-width: 768px) {
+
+    .home_way_wrap__item {
+        padding: 0 0 0 20px;
+        margin: 0;
+    }
+    .review_box .review{
+        width: 100%;
+    }
+    .lime_box{
+      margin-top: 20px;
+    }
+    .sign_up__validation{
+        padding: 5px;
+    }
+    .form-check .label_receive {
+        margin-top: 3px;
+         margin: auto; 
+         margin-left: 0; 
+    }
+    .sign_up__validation input[type=submit] {
+      width: 90%;
+    }
+    .Signup_way__board:before ,  .call_way__wrapper::before,.lime_call_way__wrapper:before,.home_way:before {
+        display: none;
+    }
+    .verify_forms .inputs li.exp_li input.cards {
+       
+        display: block;
+        
+        margin-top: 13px;
+        margin-bottom: 12px;
+    }
+.clients_logo__list {
+  
+    margin: auto;
+}
+  .signup_way_wrap__item  h3{
+text-align: center;
+  }
+    .clients__logo_item {
+        width: 50%;
+        text-align: center;
+        margin-top: 15px;
+    }
+    .toggle-switch {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    .home_way_wrap__item {
+        padding: 16px;
+        margin: 0;
+    }
+    .home_way_wrap__item  .ml-4{
+        margin-left: 0 !important;
+    }
+    .sales_desc .titles b {
+        
+        font-size: 22px;
+    }
+    .review_box .trusted_by{
+        text-align: center;
+    }
+    .welcome_board .limecall_logo_sec {
+        padding-bottom: 20px;
+        margin: auto 15px;
+    }
+    .lime_content_boxes .title {
+      
+        padding-top: 24px;
+    }
+    .verify_forms .inputs {
+        padding-top: 10px;
+        
+        margin-top: 13px;
+    }
+    .verify_forms .title {
+        padding-top: 33px;
+        position: relative;
+      
+    }
+    .weare_image{
+        padding-bottom: 20px;
+    }
+}
+
+// center align-center
